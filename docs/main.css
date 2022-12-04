@@ -1,5 +1,5 @@
 :root {
-    --green: #00FF00;
+    --light_purple: #d4beff;
     --white: #ffffff;
     --black: #000000;
 }
@@ -29,7 +29,7 @@ body {
 }
 
 .light-theme {
-    --bg: var(--green);
+    --bg: var(--light_purple);
     --fontColor: var(--black);
     --btnBg: var(--black);
     --btnFontColor: var(--white);
