@@ -10,7 +10,15 @@
 }
 
 body {
-    background: var(--bg)
+    background: var(--bg);
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    --bg: var(--light_purple);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
 }
 
 #misfortune {
@@ -19,20 +27,6 @@ body {
     width: 50%;
     height: 50%;
     position: absolute;
-}
-
-.center {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-    text-align: center
-}
-
-.light-theme {
-    --bg: var(--light_purple);
-    --fontColor: var(--black);
-    --btnBg: var(--black);
-    --btnFontColor: var(--white);
 }
 
 .invisible {
