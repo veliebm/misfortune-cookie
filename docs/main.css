@@ -13,12 +13,12 @@ body {
     background: var(--bg)
 }
 
-ul {
-    font-family: helvetica;
-}
-
-li {
-    list-style: circle;
+#misfortune {
+    top: 20%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    position: absolute;
 }
 
 .center {
