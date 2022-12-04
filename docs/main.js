@@ -24,10 +24,12 @@ document.onkeyup = function (e) {
             cookie_broken = true;
             document.getElementById("broken cookie").classList.remove("invisible");
             document.getElementById("misfortune").textContent = FORTUNES[Math.floor(Math.random() * FORTUNES.length)];
+            document.getElementById("message to user").textContent = "Your misfortune has been granted.";
         } else {
             document.getElementById("broken cookie").classList.add("invisible");
             document.getElementById("cookie").classList.remove("invisible");
             cookie_broken = false;
+            document.getElementById("message to user").textContent = "Press the spacebar to break me open.";
         }
     }
 };
