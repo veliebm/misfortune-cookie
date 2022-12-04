@@ -4,6 +4,9 @@ const FORTUNES = [
     "Abandon all hope immediately.",
     "Misfortune favors you a whole lot.",
     "By the time you're reading this, it's already too late.",
+    "Jealousy doesn't open doors. It closes them. And it looks like all your doors are closed.",
+    "You're going to get so much money - and then immediately lose it.",
+    "A dream you will have will come true. Which dream? I dunno. Also, I meant nightmare."
 ];
 
 let cookie_broken = false;
